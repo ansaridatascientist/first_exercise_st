@@ -1,4 +1,4 @@
-pip install matplotlib
+pip install matplotlib.pyplot
 pip install streamlit
 pip install sklearn
 pip install Pillow
