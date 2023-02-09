@@ -1,7 +1,6 @@
 # Import some important libraries going to use in this exercise
 import streamlit as st
 import numpy as np
-import seaborn as sns
 
 import matplotlib.pyplot as plt
 from sklearn import datasets
@@ -54,8 +53,7 @@ st.write("Shape of your dataset is: ", x.shape)
 st.write("Unique target variables: ", len(np.unique(y)))
 
 fig = plt.figure(figsize=(10,6))
-sns.boxplot(data = x,
-            orient = "h")
+plt.boxplot(x)
 st.pyplot(fig)
 
 fig = plt.figure(figsize=(10,4))
