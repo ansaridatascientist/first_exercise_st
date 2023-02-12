@@ -17,7 +17,7 @@ from PIL import Image
 st.title("My First Exercise")
 
 # Adding image
-image = Image.open("https://github.com/ansaridatascientist/first_exercise_st/blob/main/photo.png")
+image = Image.open(r"https://github.com/ansaridatascientist/first_exercise_st/blob/main/photo.png")
 st.image(image, use_column_width = True)
 
 # Set subtitle
